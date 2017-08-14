@@ -1,0 +1,59 @@
+body, html {
+	height: 100%;
+}
+.viewport {
+	min-width: 1003px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ui-nav {
+	position: relative;
+	font-size: 1.25em;
+	background-color: #223045;
+	height: 50px;
+	line-height: 50px;
+	padding: 3px 50px;
+
+	a {
+		color: #d3d6da;
+		display: inline-block;
+		border-radius: 5px;
+		padding: 0 20px;
+	}
+
+	a:hover, a:active, .active {
+		color: #ffb406;
+	}
+
+	.active {
+		background-color: #091930;
+	}
+}
+
+.ui-cont-wrap {
+	position: relative;
+	height: 100%;
+	height: calc(~"100% - 56px");
+}
+.ui-video {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-document {
+	height: 100%;
+	overflow: hidden;
+
+	.lg-outer {
+		position: relative;
+		background-color: #000;
+	}
+
+	.lg-fullscreen-on {
+		position: fixed;
+	}
+}
